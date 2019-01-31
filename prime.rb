@@ -7,7 +7,9 @@ def prime?(integer)
   list_of_remainders = []
   myArray.each do |i|
     result = integer % i 
-    list_of_remainders.push(result)
+    if integer != i
+      list_of_remainders.push(result)
+    end
   end
     
   if list_of_remainders.include? 0
