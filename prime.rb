@@ -29,7 +29,7 @@ def prime?(integer)
   myArray.each do |i|
     result = integer % i
     if integer != i
-      list_of_remainders.push result
+      list_of_remainders.push(result)
     end
   end
   
