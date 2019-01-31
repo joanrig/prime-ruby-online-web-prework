@@ -1,6 +1,6 @@
 def prime?(integer)
   if integer < 2 
-    FALSE
+    return FALSE
   end
   
   myArray = Array (2..(integer-1))
@@ -11,9 +11,9 @@ def prime?(integer)
   end
     
   if list_of_remainders.include? 0
-    FALSE
+    return FALSE
   else
-    TRUE
+    return TRUE
   end
 end
 
