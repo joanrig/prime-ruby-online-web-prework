@@ -3,7 +3,7 @@ def prime?(integer)
     return FALSE
   end
   
-  myArray = Array(2..(integer-1))
+  myArray = Array (2..(integer-1))
   list_of_remainders = []
   myArray.each do |i|
     result = integer % i 
